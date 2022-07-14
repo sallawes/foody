@@ -5,7 +5,7 @@
 
 # Tämä ohjelma auttaa käyttäjää valitsemaan, mitä ruokaa minäkin päivänä
 # syödään. Valinnan jälkeen voit tulostaa listan aineksista, joita kaupasta
-# täytyy tuoda. Ohjelma lukee ruokien tiedot ja reseptit valmiista testitiedos-
+# täytyy tuoda. Ohjelma lukee ruokien tiedot ja reseptit valmiista tekstitiedos-
 # toista. TAVOITE: haastavampi, skaalautuva käyttöliittymä.
 
 # KÄYTTÖOHJE:
