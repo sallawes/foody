@@ -23,6 +23,8 @@
 # tyyppejä ei löydy tästä listasta. Valinnan suorittamisen jälkeen käyttäjä voi
 # halutessaan tulostaa näytölle ruokaan tarvittavat ainekset. Jos valintaa ei
 # ole tehty, tulostetaan virheilmoitus.
+# 
+# HUOM: Nykyisessä versiossa edellisten ruokatyyppien poislukeminen ei vielä toimi toivotusti!
 #
 # Toiminto "Tulosta kaikki tyypit" näyttää käyttäjälle, minkä tyyppisiä ruokia
 # listalla on, jotta hän voi syöttää valintaan jonkin niistä tyypeistä.
@@ -220,6 +222,9 @@ class Kayttoliittyma:
         Metodi, joka toteuttaa satunnaisen valinnan. Valitsee ensin satunnai-
         sen tyypin, joka ei ole sama kuin eilinen tai toissapäiväinen ruoka.
         Sen jälkeen se valitsee tyypin sisältä satunnaisen ruokalajin.
+        
+        HUOM: Tässä eilisen ja toissapäiväisen ruoan poissulkeminen ei toimi,
+        ja ohjelma rajaa satunnaisvalinnasta osan aterioista pois. MUOKATTAVA!
         """
 
         ruokalista = read_file("Ruokalista")
